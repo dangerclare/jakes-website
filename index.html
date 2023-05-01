@@ -1,93 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My Website</title>
-	<style>
-		body {
-			margin: 0;
-			padding: 0;
-			background-color: #f2f2f2;
-			font-family: Arial, sans-serif;
-		}
-		header {
-			background-color: #141414;
-			color: #ffffff;
-			padding: 20px;
-			text-align: center;
-			font-size: 30px;
-			font-weight: bold;
-			text-transform: uppercase;
-			letter-spacing: 3px;
-			border-bottom: 3px solid #ee6600;
-		}
-		nav {
-			background-color: #141414;
-			color: #ffffff;
-			padding: 10px;
-			text-align: center;
-			font-size: 20px;
-			font-weight: bold;
-			text-transform: uppercase;
-			letter-spacing: 3px;
-			border-bottom: 3px solid #ee6600;
-		}
-		nav a {
-			color: #ffffff;
-			text-decoration: none;
-			margin-right: 20px;
-			transition: all 0.3s ease-in-out;
-		}
-		nav a:hover {
-			color: #ee6600;
-		}
-		.container {
-			max-width: 1200px;
-			margin: 0 auto;
-			padding: 20px;
-		}
-		h1 {
-			font-size: 48px;
-			margin-top: 50px;
-			text-align: center;
-		}
-		p {
-			font-size: 24px;
-			margin-top: 30px;
-			line-height: 1.5;
-		}
-		.btn {
-			display: inline-block;
-			padding: 12px 30px;
-			background-color: #ee6600;
-			color: #ffffff;
-			text-decoration: none;
-			text-align: center;
-			font-size: 20px;
-			font-weight: bold;
-			text-transform: uppercase;
-			letter-spacing: 3px;
-			border-radius: 5px;
-			transition: all 0.3s ease-in-out;
-		}
-		.btn:hover {
-			background-color: #ffffff;
-			color: #ee6600;
-			border: 3px solid #ee6600;
-		}
-	</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jake's Website</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>My Website</header>
-	<nav>
-		<a href="#">Home</a>
-		<a href="#">About</a>
-		<a href="#">Contact</a>
-		<a href="#">Blog</a>
-		<a href="#">Test Link</a>
-	</nav>
-	<div class="container">
-		<h1>Welcome to My Website</h1>
-		<p>This is a test paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies, tortor at eleifend euismod, justo eros maximus enim, vel pellentesque libero neque quis nunc. Suspendisse imperdiet enim sit amet velit malesuada sagittis. Morbi eget enim lectus. Morbi posuere purus ut ligula rhoncus, vitae molestie massa pulvinar. Sed non risus euismod, aliquam eros vel, consequat odio. Nam iaculis auctor ipsum, sed aliquet velit dignissim vel. In vitae tempor odio.</p>
-		<a href="#" class="
+  <header>
+    <nav>
+      <a href="#" class="logo">Jake's Website</a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="https://www.example.com/test">Test Link</a></li> <!-- New test link -->
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Welcome to Jake's Website</h1>
+      <p>We provide the best web development services.</p>
+      <a href="#">Learn More</a>
+    </div>
+  </header>
+  <section class="about">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut risus ac nulla aliquet tristique. Duis bibendum est nec lectus euismod fringilla. Sed suscipit turpis ac velit euismod euismod. Suspendisse quis massa lacus.</p>
+    <p>Donec varius nulla vitae commodo volutpat. Sed in turpis ac sapien tristique hendrerit eu eget neque. Etiam fringilla, magna et commodo elementum, ex leo vulputate felis, eget euismod massa turpis et quam. Integer at turpis non dolor facilisis ullamcorper.</p>
+  </section>
+  <section class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>
+        <h3>Web Development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut risus ac nulla aliquet tristique.</p>
+      </li>
+      <li>
+        <h3>Web Design</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut risus ac nulla aliquet tristique.</p>
+      </li>
+      <li>
+        <h3>SEO Optimization</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut risus ac nulla aliquet tristique.</p>
+      </li>
+    </ul>
+  </section>
+  <footer>
+    <p>&copy; 2023 Jake's Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
