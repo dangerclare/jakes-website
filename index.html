@@ -1,84 +1,93 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My Website</title>
 	<style>
 		body {
 			margin: 0;
 			padding: 0;
+			background-color: #f2f2f2;
 			font-family: Arial, sans-serif;
-			font-size: 16px;
-			line-height: 1.5;
-			background-color: #F8F8F8;
-			color: #333;
 		}
-
 		header {
-			background-color: #111;
-			color: #fff;
+			background-color: #141414;
+			color: #ffffff;
 			padding: 20px;
+			text-align: center;
+			font-size: 30px;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+			border-bottom: 3px solid #ee6600;
 		}
-
-		h1 {
-			font-size: 36px;
-			margin: 0;
-			padding: 0;
-		}
-
 		nav {
-			background-color: #333;
-			color: #fff;
+			background-color: #141414;
+			color: #ffffff;
 			padding: 10px;
+			text-align: center;
+			font-size: 20px;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+			border-bottom: 3px solid #ee6600;
 		}
-
 		nav a {
-			color: #fff;
+			color: #ffffff;
 			text-decoration: none;
-			margin-right: 10px;
+			margin-right: 20px;
+			transition: all 0.3s ease-in-out;
 		}
-
 		nav a:hover {
-			color: #fff;
-			text-decoration: underline;
+			color: #ee6600;
 		}
-
-		main {
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
 			padding: 20px;
-			margin: 20px;
-			background-color: #fff;
-			border-radius: 10px;
-			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 		}
-
+		h1 {
+			font-size: 48px;
+			margin-top: 50px;
+			text-align: center;
+		}
 		p {
-			margin: 0;
-			padding: 0;
+			font-size: 24px;
+			margin-top: 30px;
 			line-height: 1.5;
 		}
-
-		.test-link {
-			color: #007AFF;
+		.btn {
+			display: inline-block;
+			padding: 12px 30px;
+			background-color: #ee6600;
+			color: #ffffff;
 			text-decoration: none;
+			text-align: center;
+			font-size: 20px;
 			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+			border-radius: 5px;
+			transition: all 0.3s ease-in-out;
 		}
-
-		.test-link:hover {
-			color: #007AFF;
-			text-decoration: underline;
+		.btn:hover {
+			background-color: #ffffff;
+			color: #ee6600;
+			border: 3px solid #ee6600;
 		}
 	</style>
 </head>
 <body>
-	<header>
-		<h1>My Website</h1>
-	</header>
+	<header>My Website</header>
 	<nav>
 		<a href="#">Home</a>
-		<a href="#" class="test-link">Test Website</a>
-		<a href="#">Contact Us</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
+		<a href="#">Blog</a>
+		<a href="#">Test Link</a>
 	</nav>
-	<main>
-		<p>Welcome to my website. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed finibus velit. Donec quis rutrum purus. Duis eget orci eu dolor lobortis molestie sed quis justo. Aenean sit amet velit ullamcorper, posuere justo sed, luctus velit. Integer id volutpat libero.</p>
-	</main>
-</body>
-</html>
+	<div class="container">
+		<h1>Welcome to My Website</h1>
+		<p>This is a test paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies, tortor at eleifend euismod, justo eros maximus enim, vel pellentesque libero neque quis nunc. Suspendisse imperdiet enim sit amet velit malesuada sagittis. Morbi eget enim lectus. Morbi posuere purus ut ligula rhoncus, vitae molestie massa pulvinar. Sed non risus euismod, aliquam eros vel, consequat odio. Nam iaculis auctor ipsum, sed aliquet velit dignissim vel. In vitae tempor odio.</p>
+		<a href="#" class="
